@@ -7,6 +7,16 @@ export default {
 
   theme: {
     extend: {
+
+      fontFamily: {
+        'Poppins': ["Poppins", "sans-serif"]
+      
+      },
+      lineHeight: {
+        'line28': '28px',
+        'line74': '74px',
+        
+      },
       transitionDuration: {
         '1000': '1000ms',
       },
