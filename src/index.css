@@ -5,3 +5,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+     .common_btn {
+       @apply px-[48px] font-Poppins py-[16px] text-white border border-[#F4F6FC33] rounded-[41px];
+     }
+   }
+   @layer components {
+     .nav_list {
+       @apply duration-1000 hover:text-white;
+     }
+   }
+   
+   

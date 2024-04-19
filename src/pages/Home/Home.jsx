@@ -1,6 +1,10 @@
 import React from 'react'
 import Paragraph from '../../components/Paragraph'
 import Button from '../../components/Button'
+import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
+
 
 const Home = () => {
   return (
@@ -11,7 +15,7 @@ const Home = () => {
             <div className='main'>
                 <div>
                   <div>
-                      <h1 className='container w-[582px] text-[54px] font-bold line74 not-italic text-white font-Poppins	'>Building stellar websites for early startups</h1> 
+                      <h1 className='container w-582px text-[54px] font-bold line74 not-italic text-white font-Poppins	'>Building stellar websites for early startups</h1> 
                   </div>
                   <div>
                     <Paragraph   text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."/>
@@ -19,10 +23,10 @@ const Home = () => {
 
                   <div>
                     <div>
-                        <Button text="View our work"/>
+                        <Button className="common_btn bg-red-600" title="View our work"/>
                     </div>
                     <div>
-                      
+                        <Link to="/Features">View Pricing<FontAwesomeIcon icon={faArrowRightLong} /></Link>
                     </div>
                   </div>
 
