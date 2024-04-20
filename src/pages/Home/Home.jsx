@@ -41,8 +41,8 @@ const Home = () => {
         </div>
       </section>
       {/* ===== How we work start here ==== */}
-      <section className='work py-128px'>
-          <div className='container mx-auto'>
+      <section className='work py-128px bg-#F4F6FC'>
+          <div className='container mx-auto flex gap-142px'>
             <div>
                   <h2 className='Subheading'>How we work</h2>
                   <Paragraph className="perastyle text-#282938  mt-16px w-405px"  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."/>
@@ -54,36 +54,100 @@ const Home = () => {
                 </div>
 
             </div>
-            <div className='card-box'>
+            <div className='card-box flex flex-wrap gap-y-48px '>
                 <div className='card_item'>
-                <Card className='border-none'>
-                    <Card.Header>
-                        <img src="./images/pointer 1.png" alt="image"/>
-                    </Card.Header>
+                    <Card className='border-none shadow-none'>
+                        <Card.Header>
+                            <img src="./images/pointer 1.png" alt="image"/>
+                        </Card.Header>
 
-                    <Card.Content className="p-0 mt-16px">
-                        <Card.Title>Strategy</Card.Title>
-                        <Card.Description className='mt-8px perastyle  font-normal text-#282938 w-303px'>
-                        Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .
-                        </Card.Description>
-                      
-                    </Card.Content>
-                </Card>   
-                    
+                        <Card.Content className="p-0 mt-16px">
+                            <Card.Title>Strategy</Card.Title>
+                            <Card.Description className='mt-8px perastyle  font-normal text-#282938 w-303px'>
+                            Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .
+                            </Card.Description>
+                        
+                        </Card.Content>
+                    </Card>   
+                </div>
+                <div className='card_item'>
+                    <Card className='border-none shadow-none'>
+                        <Card.Header>
+                            <img src="./images/pointer 1.png" alt="image"/>
+                        </Card.Header>
+
+                        <Card.Content className="p-0 mt-16px">
+                            <Card.Title>Wireframing</Card.Title>
+                            <Card.Description className='mt-8px perastyle  font-normal text-#282938 w-303px'>
+                            Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .
+                            </Card.Description>
+                        
+                        </Card.Content>
+                    </Card>   
+                </div>
+                <div className='card_item'>
+                    <Card className='border-none shadow-none'>
+                        <Card.Header>
+                            <img src="./images/pointer 1.png" alt="image"/>
+                        </Card.Header>
+
+                        <Card.Content className="p-0 mt-16px">
+                            <Card.Title>Design</Card.Title>
+                            <Card.Description className='mt-8px perastyle  font-normal text-#282938 w-303px'>
+                            Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .
+                            </Card.Description>
+                        
+                        </Card.Content>
+                    </Card>   
+                </div>
+                <div className='card_item'>
+                    <Card className='border-none shadow-none'>
+                        <Card.Header>
+                            <img src="./images/pointer 1.png" alt="image"/>
+                        </Card.Header>
+
+                        <Card.Content className="p-0 mt-16px">
+                            <Card.Title>Development</Card.Title>
+                            <Card.Description className='mt-8px perastyle  font-normal text-#282938 w-303px'>
+                            Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .
+                            </Card.Description>
+                        
+                        </Card.Content>
+                    </Card>   
+                </div>
+            </div>
+          </div>
+      </section>
+
+      
+      {/* ===== How we work end here ==== */}
+
+      {/* =====View our projects start here==== */}
+      <section className='py-128px bg-white'>  
+            <div className='container mx-auto'>
+                <div  className='flex justify-between items-center'>
+                    <div>
+                        <h2 className='Subheading'>View our projects</h2>
+                    </div>
+                    <div>
+                        <Link className= ' label text-#282938 text-18px  ' to="/about">View More<FontAwesomeIcon className='text-#282938 ml-2'  icon={faArrowRightLong} /></Link>
+                    </div>
                 </div>
             </div>
 
-          </div>
-
+            
       </section>
+      {/* =====View our projects end here==== */}
 
-      {/* ===== How we work end here ==== */}
-      
   </>
   )
 }
 
 export default Home
+                    
+
+
+
 
                     
 

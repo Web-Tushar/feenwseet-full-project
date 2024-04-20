@@ -39,7 +39,8 @@ export default {
       gap: {
        '48px': '48px',
        '32px':'32px',
-       '40px': '40px'
+       '40px': '40px',
+       '142px' : '142px',
       },
       height: {
         '28px': '28px',
@@ -71,6 +72,7 @@ export default {
         '#BBBBCB':'#BBBBCB',
         '#282938':'#282938',
         '#2405F2':'#2405F2',
+        '#F4F6FC': '#F4F6FC',
         
         
       },
