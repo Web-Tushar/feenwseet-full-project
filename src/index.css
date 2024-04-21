@@ -35,4 +35,10 @@
       @apply text-#282938 w-562px text-48px not-italic font-Poppins font-medium leading-line28;
     }
   }
+
+  @layer components {
+    .CardHeading {
+      @apply text-white w-313px text-24px not-italic font-Poppins font-semibold leading-line36;
+    }
+  }
    

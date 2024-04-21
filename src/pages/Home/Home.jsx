@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 // import Image from './image'
 import {Card } from 'keep-react'
+import Subheading from '../../components/Subheading'
+import CardHeading from '../../components/CardHeading'
 
 
 
@@ -127,10 +129,29 @@ const Home = () => {
             <div className='container mx-auto'>
                 <div  className='flex justify-between items-center'>
                     <div>
-                        <h2 className='Subheading'>View our projects</h2>
+                        <Subheading className="Subheading" title="View our projects"/>
                     </div>
                     <div>
                         <Link className= ' label text-#282938 text-18px  ' to="/about">View More<FontAwesomeIcon className='text-#282938 ml-2'  icon={faArrowRightLong} /></Link>
+                    </div>
+                </div>
+                <div className='mt-64px flex justify-between'>
+                    <div className='w-843px h-600px object-cover'>
+                        <img src="./images/projrct Card.png" alt="not_found" />
+                    </div>
+                    <div className='flex flex-col gap-32px'>
+
+                        <div style="background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%),url('./images/projectoverlay.png')" 
+                        className='w-405px h-284px'>
+
+                            {/* <h3 className='CardHeading'>Unisaas Website Design</h3> */}
+                            <CardHeading className="CardHeading pt-129px" title="Unisaas Website Design"/>
+                            <Link className= ' label text-#FCD980 text-18px  ' to="/about">View More<FontAwesomeIcon className='text-#FCD980 ml-2'  icon={faArrowRightLong} /></Link>
+                        </div>
+                        <div lassName='w-405px h-284px'>
+                            <img src="./images/projecardct.png" alt="not_found" />
+                        </div>
+
                     </div>
                 </div>
             </div>
