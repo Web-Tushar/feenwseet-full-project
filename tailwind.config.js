@@ -9,6 +9,10 @@ export default {
   presets: [keepPreset],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero': "url('./images/projrct Card.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
       fontWeight: {
         thin: '100',
         hairline: '100',
@@ -23,15 +27,22 @@ export default {
         black: '900',
       },
       margin: {
-        '48px': '48px',
-        '24px': '24px',
-        '16px': '16px',
-        '8px':'8px',
+        '48px':'48px',
+        '24px':'24px',
+        '12px':'12px',
+        '16px':'16px',
+        '8px': '8px',
         '64px':'64px',
+        '10px':'10px',
+        '312px':'312px',
+        '40px' :'40px',
       },
       padding: {
         '128px': '128px',
         '129px' :'129px',
+        '56px': '56px',
+        '312px': '312px',
+        '48px' : '48px',
       },
       fontSize: {
       '16px':'16px',
@@ -40,10 +51,11 @@ export default {
       '24px': '24px'
       },
       gap: {
-       '48px': '48px',
+       '48px':'48px',
+       '24px': '24px',
        '32px':'32px',
-       '40px': '40px',
-       '142px' : '142px',
+       '40px':'40px',
+       '142px':'142px',
       },
       height: {
         '28px': '28px',
@@ -57,8 +69,12 @@ export default {
         '562px': '562px',
         '405px':'405px',
         '303px': '303px',
-        '843px':'843px,',
+        '843px':'843px',
         '313px':'313px',
+        '396px': '396px',
+        '293px' :"293px",
+        '630px': "630px",
+        '328px': '328px',
       },
       fontFamily: {
         'Poppins': ["Poppins", "sans-serif"]
@@ -68,6 +84,7 @@ export default {
         'line28': '28px',
         'line74': '74px',
         'line36': '36px',
+        'line64': '64px',
         
         
       },
@@ -78,10 +95,11 @@ export default {
         'white': '#FFF',
         '#1C1E53':'#1C1E53',
         '#BBBBCB':'#BBBBCB',
-        '#282938':'#282938',
+        'Dark_blue':'#282938',
         '#2405F2':'#2405F2',
         '#F4F6FC': '#F4F6FC',
         '#FCD980': '#FCD980',
+        '__grey' :'#F4F6FC',
 
         
         
