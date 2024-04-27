@@ -36,6 +36,7 @@ export default {
         '10px':'10px',
         '312px':'312px',
         '40px' :'40px',
+        
       },
       padding: {
         '128px': '128px',
@@ -45,10 +46,15 @@ export default {
         '48px' : '48px',
       },
       fontSize: {
+      '12px':'12px',
       '16px':'16px',
-      '48px' :'48px',
       '18px' :'18px',
-      '24px': '24px'
+      '24px': '24px',
+      '32px': '32px',
+      '38px':'38px',
+      '48px' :'48px',
+
+
       },
       gap: {
        '48px':'48px',
@@ -56,11 +62,14 @@ export default {
        '32px':'32px',
        '40px':'40px',
        '142px':'142px',
+       '10px': '10px',
       },
       height: {
         '28px': '28px',
         '600px':'600px',
         '284px':'284px',
+        '80px':'80px',
+
       },
 
       width: {
@@ -75,6 +84,8 @@ export default {
         '293px' :"293px",
         '630px': "630px",
         '328px': '328px',
+        '327px': '327px',
+        '80px': '80px',
       },
       fontFamily: {
         'Poppins': ["Poppins", "sans-serif"]
@@ -85,6 +96,8 @@ export default {
         'line74': '74px',
         'line36': '36px',
         'line64': '64px',
+        'line56': '56px',
+        'line48': "48px",
         
         
       },

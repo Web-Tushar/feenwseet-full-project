@@ -12,6 +12,7 @@ import RootLayout from "./layouts/RootLayout";
 import Price from "./pages/price/Price";
 import Faq from "./pages/FAQ/Faq";
 import Blog from "./pages/Blog/Blog";
+import Conatct from "./pages/contact/Contact";
 
 
 export function App() {
@@ -26,6 +27,7 @@ export function App() {
           <Route path="Price" element={<Price/>}/>
           <Route path="Faq" element={<Faq/>}/>
           <Route path="Blog" element={<Blog/>}/>
+          <Route path="contact" element={<Conatct/>}/>
 
       </Route>
 

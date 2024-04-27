@@ -8,6 +8,11 @@ import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 import {Card } from 'keep-react'
 import Subheading from '../../components/Subheading'
 import CardHeading from '../../components/CardHeading'
+import { Avatar } from "keep-react"
+import { FaChevronRight } from "react-icons/fa"
+import { FaChevronLeft } from "react-icons/fa"
+// import Conatct from '../contact/Contact'
+import { Accordion } from "keep-react";
 
 
 
@@ -195,7 +200,7 @@ const Home = () => {
 
                     </div>
                 </div>
-                <div className='card_box flex flex-wrap justify-center text-center gap-x-32px gap-y-24px'>
+                <div className='card_box flex flex-wrap justify-center  gap-x-32px gap-y-24px'>
                     <Card className='border-none shadow-none p-48px w-405px'>
                                     <Card.Header>
                                         <img src="./images/featuireIcon1.png" alt="icon"/>
@@ -287,17 +292,95 @@ const Home = () => {
         </section>
       {/* ====feature part end here==== */}
 
+      {/* =====Client part  start here===== */}
+     <section className='bg-__grey py-128px'>
+        <div className='container mx-auto'>
+            <div className='flex justify-between'>
+                <div>
+                    <Subheading className="Subheading text-38px w-327px text-Dark_blue leading-line56" title="What our clients say about us"/>
+                    <Paragraph className="perastyle w-327px mt-16px text-Dark_blue" text='Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.'/>
+                </div>
+                <div>
+                      <Subheading className="Subheading text-32px w-843px leading-line48" title='"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."'/>
+                      <div className='flex justify-between mt-48px'>
+                         <div className='flex items-center gap-x-10px'>
+                            <Avatar shape="circle" className='object-cover ' img="/images/woman-.png" />
+                            <div>
+                                <span className='CardHeading text-Dark_blue'>Jenny Wilson</span>
+                                <p className='perastyle text-Dark_blue text-12px'>Vice President</p>
+
+                            </div>
+                         </div>
+                         <div className='flex gap-x-1'>
+                            <div className= ' flex justify-center text-32px items-center bg-red-400 w-80px h-80px rounded-[50%]'><FaChevronLeft /></div>
+                            <div className= ' flex justify-center text-32px items-center bg-red-400 w-80px h-80px rounded-[50%]'><FaChevronRight /></div>
+                         </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      {/* ===== Client part end here ===== */}
+
+      {/* ===== Frequently part start here ===== */}
+      <section className='py-128px'>
+        <div className='container mx-auto'>
+            <div>
+                <div>
+                     <Subheading className="Subheading text-38px leading-line56 w-328px" title='Frequently asked questions'/>
+                     <div className='mt-16px'>
+                        <Link className= 'label text-#2405F2 text-18px' to="/Contact">Contact us for more info</Link>  
+                     </div>
+
+                </div>
+                <div>
+                    <Accordion flush={true}>
+                        <Accordion.Panel>
+                            <Accordion.Container>
+                            <Accordion.Title> <span>01</span>  What is the purpose of the Keep React?</Accordion.Title>
+                            <Accordion.Icon />
+                            </Accordion.Container>
+                            <Accordion.Content>
+                            The Keep React is a collection of UI components, styles, and guidelines that ensure consistency and a unified
+                            user experience across our products. It simplifies the design and development process by providing
+                            ready-to-use components that can be easily customized and integrated into various applications.
+                            </Accordion.Content>
+                        </Accordion.Panel>
+                        <Accordion.Panel>
+                            <Accordion.Container>
+                            <Accordion.Title>Q. How do I customize the color scheme of components?</Accordion.Title>
+                            <Accordion.Icon />
+                            </Accordion.Container>
+                            <Accordion.Content>
+                            The Keep React offers a range of color variants for components. To customize the color scheme, you can use the
+                            available color options such as gray,info,error,warning and success. Simply set the desired color variant as a
+                            prop when using the component, and it will reflect the chosen color.
+                            </Accordion.Content>
+                        </Accordion.Panel>
+                        <Accordion.Panel>
+                            <Accordion.Container>
+                            <Accordion.Title>Q. Can I add additional content to notifications?</Accordion.Title>
+                            <Accordion.Icon />
+                            </Accordion.Container>
+                            <Accordion.Content>
+                            Yes, the Notification component in the Keep React allows you to include extra content alongside the primary
+                            message. The additionalContent prop can be used to display supplementary information, such as buttons, links,
+                            or icons, within the notification to provide users with more context and options.
+                            </Accordion.Content>
+                        </Accordion.Panel>
+                    </Accordion>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+
+      {/* ===== Frequently part end here ===== */}
+
 
   </>
   )
 }
 
 export default Home
-                    
-
-
-
-
-                    
-
-

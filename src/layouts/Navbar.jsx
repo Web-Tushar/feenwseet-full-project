@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../components/Button'
+import Contact from '../pages/contact/Contact'
 
 const Navbar = () => {
   return (
@@ -40,7 +41,8 @@ const Navbar = () => {
                          </ul>
                     </div>
                     <div>
-                         <Button className="common_btn" title="Contact us"/>
+                    <Link to="/Contact"><Button  className="common_btn" title="Contact us"/></Link>
+                         
                     </div>
 
                </div>
