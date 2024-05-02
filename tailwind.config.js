@@ -63,6 +63,7 @@ export default {
        '40px':'40px',
        '142px':'142px',
        '10px': '10px',
+       '109px' :'110px',
       },
       height: {
         '28px': '28px',

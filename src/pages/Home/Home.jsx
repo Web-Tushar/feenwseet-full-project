@@ -325,7 +325,7 @@ const Home = () => {
       {/* ===== Frequently part start here ===== */}
       <section className='py-128px'>
         <div className='container mx-auto'>
-            <div>
+            <div className='flex gap-x-109px'>
                 <div>
                      <Subheading className="Subheading text-38px leading-line56 w-328px" title='Frequently asked questions'/>
                      <div className='mt-16px'>
@@ -337,7 +337,7 @@ const Home = () => {
                     <Accordion flush={true}>
                         <Accordion.Panel>
                             <Accordion.Container>
-                            <Accordion.Title> <span>01</span>  What is the purpose of the Keep React?</Accordion.Title>
+                            <Accordion.Title className='CardHeading'>1  How much time does it take??</Accordion.Title>
                             <Accordion.Icon />
                             </Accordion.Container>
                             <Accordion.Content>
@@ -348,7 +348,7 @@ const Home = () => {
                         </Accordion.Panel>
                         <Accordion.Panel>
                             <Accordion.Container>
-                            <Accordion.Title>Q. How do I customize the color scheme of components?</Accordion.Title>
+                            <Accordion.Title className='CardHeading'>2 What is your class naming convention?</Accordion.Title>
                             <Accordion.Icon />
                             </Accordion.Container>
                             <Accordion.Content>
@@ -359,7 +359,7 @@ const Home = () => {
                         </Accordion.Panel>
                         <Accordion.Panel>
                             <Accordion.Container>
-                            <Accordion.Title>Q. Can I add additional content to notifications?</Accordion.Title>
+                            <Accordion.Title className='CardHeading text-warning-400'>3 How do you communicate?</Accordion.Title>
                             <Accordion.Icon />
                             </Accordion.Container>
                             <Accordion.Content>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../components/Button'
-import Contact from '../pages/contact/Contact'
+import Contact from '../pages/contact.jsx/Contact'
 
 const Navbar = () => {
   return (

@@ -38,7 +38,7 @@
 
   @layer components {
     .CardHeading {
-      @apply text-white  text-24px not-italic font-Poppins font-semibold leading-line36;
+      @apply text-white  text-24px not-italic font-Poppins font-bold leading-line36;
     }
   }
    
