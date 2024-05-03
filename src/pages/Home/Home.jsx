@@ -12,7 +12,9 @@ import { Avatar } from "keep-react"
 import { FaChevronRight } from "react-icons/fa"
 import { FaChevronLeft } from "react-icons/fa"
 // import Conatct from '../contact/Contact'
-import { Accordion } from "keep-react";
+// import { Accordion } from "keep-react";
+import Accordian from '../../components/Accordian'
+
 
 
 
@@ -333,14 +335,14 @@ const Home = () => {
                      </div>
 
                 </div>
-                <div>
-                    <Accordion flush={true}>
+                  <div>
+                    {/* <Accordion flush={true}>
                         <Accordion.Panel>
                             <Accordion.Container>
-                            <Accordion.Title className='CardHeading'>1  How much time does it take??</Accordion.Title>
+                            <Accordion.Title className='AccordionHeading'>1  How much time does it take??</Accordion.Title>
                             <Accordion.Icon />
                             </Accordion.Container>
-                            <Accordion.Content>
+                            <Accordion.Content className='text-Dark_blue  text-18px not-italic font-Poppins font-medium leading-line32'>
                             The Keep React is a collection of UI components, styles, and guidelines that ensure consistency and a unified
                             user experience across our products. It simplifies the design and development process by providing
                             ready-to-use components that can be easily customized and integrated into various applications.
@@ -348,10 +350,10 @@ const Home = () => {
                         </Accordion.Panel>
                         <Accordion.Panel>
                             <Accordion.Container>
-                            <Accordion.Title className='CardHeading'>2 What is your class naming convention?</Accordion.Title>
+                            <Accordion.Title className='text-Dark_blue font-Poppins text-24px font-medium leading-line36 not-italic'>2 What is your class naming convention?</Accordion.Title>
                             <Accordion.Icon />
                             </Accordion.Container>
-                            <Accordion.Content>
+                            <Accordion.Content  className='text-Dark_blue  text-18px not-italic font-Poppins font-medium leading-line32'>
                             The Keep React offers a range of color variants for components. To customize the color scheme, you can use the
                             available color options such as gray,info,error,warning and success. Simply set the desired color variant as a
                             prop when using the component, and it will reflect the chosen color.
@@ -359,18 +361,61 @@ const Home = () => {
                         </Accordion.Panel>
                         <Accordion.Panel>
                             <Accordion.Container>
-                            <Accordion.Title className='CardHeading text-warning-400'>3 How do you communicate?</Accordion.Title>
+                            <Accordion.Title className='text-Dark_blue font-Poppins text-24px font-medium leading-line36 not-italic'>3 How do you communicate?</Accordion.Title>
                             <Accordion.Icon />
                             </Accordion.Container>
-                            <Accordion.Content>
+                            <Accordion.Content  className='text-Dark_blue  text-18px not-italic font-Poppins font-medium leading-line32'>
                             Yes, the Notification component in the Keep React allows you to include extra content alongside the primary
                             message. The additionalContent prop can be used to display supplementary information, such as buttons, links,
                             or icons, within the notification to provide users with more context and options.
                             </Accordion.Content>
                         </Accordion.Panel>
-                    </Accordion>
-                </div>
+                        <Accordion.Panel>
+                            <Accordion.Container>
+                            <Accordion.Title className='text-Dark_blue font-Poppins text-24px font-medium leading-line36 not-italic'>4 What is your class naming convention?</Accordion.Title>
+                            <Accordion.Icon />
+                            </Accordion.Container>
+                            <Accordion.Content  className='text-Dark_blue  text-18px not-italic font-Poppins font-medium leading-line32'>
+                            The Keep React offers a range of color variants for components. To customize the color scheme, you can use the
+                            available color options such as gray,info,error,warning and success. Simply set the desired color variant as a
+                            prop when using the component, and it will reflect the chosen color.
+                            </Accordion.Content>
+                        </Accordion.Panel>
+                        <Accordion.Panel>
+                            <Accordion.Container>
+                            <Accordion.Title className='text-Dark_blue font-Poppins text-24px font-medium leading-line36 not-italic'>5 What is your class naming convention?</Accordion.Title>
+                            <Accordion.Icon />
+                            </Accordion.Container>
+                            <Accordion.Content  className='text-Dark_blue  text-18px not-italic font-Poppins font-medium leading-line32'>
+                            The Keep React offers a range of color variants for components. To customize the color scheme, you can use the
+                            available color options such as gray,info,error,warning and success. Simply set the desired color variant as a
+                            prop when using the component, and it will reflect the chosen color.
+                            </Accordion.Content>
+                        </Accordion.Panel>
+                     </Accordion>  */}
+                <Accordian 
+                headingstyle="text-48px"
+                headingtext="How much time does it take ?" 
+                paragraphtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+                />
+                <Accordian 
+                headingtext="How much time does it take ?" 
+                paragraphtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+                />
+
+                </div>  
             </div>
+        </div>
+      </section>
+      <section>
+        <div className='container mx-auto'>
+            <div className='w-container h-691px border'>
+                <div style="background: rgba(28, 30, 83, 0.50),url('./images/woman-writing.png')" className='w-656px h-691px'></div>
+                <div></div>
+            </div>
+             
         </div>
       </section>
 

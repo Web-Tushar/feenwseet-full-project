@@ -70,6 +70,8 @@ export default {
         '600px':'600px',
         '284px':'284px',
         '80px':'80px',
+        '691px':'691px',
+
 
       },
 
@@ -77,16 +79,18 @@ export default {
         '582px': '582px',
         '122px': '122px',
         '562px': '562px',
-        '405px':'405px',
+        '405px': '405px',
         '303px': '303px',
-        '843px':'843px',
-        '313px':'313px',
+        '843px': '843px',
+        '313px': '313px',
         '396px': '396px',
-        '293px' :"293px",
+        '293px': "293px",
         '630px': "630px",
         '328px': '328px',
         '327px': '327px',
-        '80px': '80px',
+        '80px' : '80px',
+        '656px': '656px',
+
       },
       fontFamily: {
         'Poppins': ["Poppins", "sans-serif"]
@@ -99,6 +103,7 @@ export default {
         'line64': '64px',
         'line56': '56px',
         'line48': "48px",
+        'line32': '32px'
         
         
       },

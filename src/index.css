@@ -11,12 +11,11 @@
      .common_btn {
        @apply px-[48px] font-Poppins py-[16px] text-white border border-[#F4F6FC33] rounded-[41px];
      }
-   }
-   @layer components {
      .nav_list {
-       @apply duration-1000 hover:text-white;
-     }
+      @apply duration-1000 hover:text-white;
+    }
    }
+   
    
    @layer components {
     .label {
@@ -41,4 +40,15 @@
       @apply text-white  text-24px not-italic font-Poppins font-bold leading-line36;
     }
   }
-   
+
+  @layer components {
+    .AccordionPera {
+      @apply text-Dark_blue  text-18px not-italic font-Poppins font-medium leading-line32;
+    }
+  }
+
+  @layer components {
+    .AccordionHeading {
+      @apply text-Dark_blue font-Poppins text-48px font-medium leading-line36 not-italic;
+    }
+  }
