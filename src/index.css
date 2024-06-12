@@ -14,6 +14,11 @@
      .nav_list {
       @apply duration-1000 hover:text-white;
     }
+
+    .heading {
+      @apply w-582px text-54px font-bold leading-line74 not-italic text-white font-Poppins;
+    }
+    
    }
    
    

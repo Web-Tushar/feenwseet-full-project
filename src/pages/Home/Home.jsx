@@ -24,11 +24,11 @@ const Home = () => {
   <>
       {/* ===banner part start here=== */}
       <section className='bg-#1C1E53 py-128px  '>
-        <div className='container mx-auto '>
+        <div className='max-w-container mx-auto '>
             <div className='main flex justify-between items-center'>
                 <div>
                     <div>
-                        <h1 className='container w-582px text-[54px] font-bold line74 not-italic text-white font-Poppins	'>Building stellar websites for early startups</h1> 
+                        <h1 className='heading'>Building stellar websites for early startups</h1> 
                     </div>
                     <div>
                       <Paragraph  className="perastyle w-562px mt-24px"  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."/>
@@ -52,7 +52,7 @@ const Home = () => {
       </section>
       {/* ===== How we work start here ==== */}
       <section className='work py-128px bg-#F4F6FC'>
-          <div className='container mx-auto flex  '>
+          <div className='max-w-container mx-auto flex  '>
                 <div>
                     <h2 className='Subheading'>How we work</h2>
                     <Paragraph className="perastyle text-Dark_blue  mt-16px w-405px"  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."/>
@@ -138,7 +138,7 @@ const Home = () => {
 
       {/* =====View our projects start here==== */}
       <section className='py-128px bg-white'>  
-            <div className='container mx-auto'>
+            <div className='max-w-container mx-auto'>
                 <div  className='flex justify-between items-center'>
                     <div>
                         <Subheading className="Subheading" title="View our projects"/>
@@ -194,7 +194,7 @@ const Home = () => {
 
       {/* ====feature part start here==== */}
         <section className='bg-__grey py-128px'>
-            <div className='container mx-auto'>
+            <div className='max-w-container mx-auto'>
                 <div className='flex justify-center text-center'>
                     <div  className='w-630px'>
                         <Paragraph className="perastyle text-Dark_blue" text='feature'/>
@@ -296,7 +296,7 @@ const Home = () => {
 
       {/* =====Client part  start here===== */}
      <section className='bg-__grey py-128px'>
-        <div className='container mx-auto'>
+        <div className='max-w-container mx-auto'>
             <div className='flex justify-between'>
                 <div>
                     <Subheading className="Subheading text-38px w-327px text-Dark_blue leading-line56" title="What our clients say about us"/>
@@ -326,7 +326,7 @@ const Home = () => {
 
       {/* ===== Frequently part start here ===== */}
       <section className='py-128px'>
-        <div className='container mx-auto'>
+        <div className='max-w-container mx-auto'>
             <div className='flex gap-x-109px'>
                 <div>
                      <Subheading className="Subheading text-38px leading-line56 w-328px" title='Frequently asked questions'/>
@@ -393,35 +393,80 @@ const Home = () => {
                             </Accordion.Content>
                         </Accordion.Panel>
                      </Accordion>  */}
-                <Accordian 
-                headingstyle="text-48px"
-                headingtext="How much time does it take ?" 
-                paragraphtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                
 
-                />
-                <Accordian 
-                headingtext="How much time does it take ?" 
-                paragraphtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                </div> 
+                <div>
+                    <Accordian 
+                    className= "AccordionHeading"
+                    headingtext="How much time does it take ?" 
+                    paragraphtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-                />
+                    />
+                    <Accordian 
+                    headingtext="How much time does it take ?" 
+                    paragraphtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    />
+                    <Accordian 
+                    headingtext="How much time does it take ?" 
+                    paragraphtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    />
+                    <Accordian 
+                    headingtext="How much time does it take ?" 
+                    paragraphtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    />
 
-                </div>  
+                </div> 
             </div>
         </div>
       </section>
+       {/* ===== Frequently part end here ===== */}
+
+       {/* =====Send inquiry part start here=====*/}
+
       <section>
-        <div className='container mx-auto'>
-            <div className='w-container h-691px border'>
-                <div style="background: rgba(28, 30, 83, 0.50),url('./images/woman-writing.png')" className='w-656px h-691px'></div>
-                <div></div>
+        <div className='max-w-container mx-auto'>
+            <div className='container flex justify-between border'>
+                <div className='bg-building p-96px   w-656px h-691px bg-cover'>
+                    <h1 className='heading w-464px '>Building stellar websites for early startups</h1>
+                    <p className=' perastyle w-464px'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>
+                </div>
+
+                <div className='w-624px  h-691px bg-#1C1E53  '>
+                    
+                    <form class="max-w-sm mx-auto">
+                        <div class="mb-5">
+                            <div className='w-432px mb-10 mt-24'>
+                                <h2 className='CardHeading'>Send inquiry</h2>
+                                <p className='perastyle '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            </div>
+                            
+                            <input type="email" id="email" class="border-2 py-18px px-32px text-white bg-#1C1E53 rounded-lg  border-border_color w-432px" placeholder="Your Name" required />
+                        </div>
+                        <div class="mb-5">
+                            
+                            <input type="password" id="password" class=" text-white border-2 py-18px px-32px bg-#1C1E53 rounded-lg  border-border_color w-432px" placeholder="Email" required />
+                        </div>
+                        <div class="mb-5">
+                            <input type="password" id="repeat-password" class="border-2 text-white py-18px px-32px bg-#1C1E53 rounded-lg  border-border_color w-432px" placeholder="Paste your Figma design URL" required />
+                        </div>
+                        <Button className="common_btn py-16px px-51px w-432px bg-#FCD980 mt-10" title="View our work"/>
+                    </form>
+                    
+
+
+                </div>
+
             </div>
              
         </div>
       </section>
+       {/* =====Send inquiry part end here=====*/}
 
 
 
-      {/* ===== Frequently part end here ===== */}
+
+     
 
 
   </>

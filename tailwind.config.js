@@ -9,9 +9,12 @@ export default {
   presets: [keepPreset],
   theme: {
     extend: {
+      maxWidth: {
+        'container': '1280px',
+      },
       backgroundImage: {
         'hero': "url('./images/projrct Card.png')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'building': "url('./images/woman-writing.png')",
       },
       fontWeight: {
         thin: '100',
@@ -44,6 +47,13 @@ export default {
         '56px': '56px',
         '312px': '312px',
         '48px' : '48px',
+        '96px': '96px',
+        '18px':'18px',
+        '32px': "32px",
+        '51px':'51px',
+        '16px':'16px',
+        '150px':'150px',
+
       },
       fontSize: {
       '12px':'12px',
@@ -53,6 +63,7 @@ export default {
       '32px': '32px',
       '38px':'38px',
       '48px' :'48px',
+      '54px' :'54px',
 
 
       },
@@ -89,7 +100,11 @@ export default {
         '328px': '328px',
         '327px': '327px',
         '80px' : '80px',
+        '624px': '624px',
         '656px': '656px',
+        '464px' : '464px',
+        '432px': '432px',
+        // 'container': '1280px'
 
       },
       fontFamily: {
@@ -119,12 +134,10 @@ export default {
         '#F4F6FC': '#F4F6FC',
         '#FCD980': '#FCD980',
         '__grey' :'#F4F6FC',
-
+          'colorss' :'rgba(28, 30, 83, 0.50);',
+        'border_color' : "rgba(255, 255, 255, 0.05)"
         
         
-      },
-      maxWidth: {
-        'container': '1280px',
       },
     },
   },
