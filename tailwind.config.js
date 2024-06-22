@@ -39,6 +39,7 @@ export default {
         '10px':'10px',
         '312px':'312px',
         '40px' :'40px',
+        '128px': '128px',
         
       },
       padding: {

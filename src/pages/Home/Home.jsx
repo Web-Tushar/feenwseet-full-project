@@ -14,6 +14,8 @@ import { FaChevronLeft } from "react-icons/fa"
 // import Conatct from '../contact/Contact'
 // import { Accordion } from "keep-react";
 import Accordian from '../../components/Accordian'
+import Cards from '../../components/Cards'
+
 
 
 
@@ -461,7 +463,35 @@ const Home = () => {
              
         </div>
       </section>
-       {/* =====Send inquiry part end here=====*/}
+       {/* =====Send inquiry part end  here=====*/}
+
+       {/* =====Our blog part start here=====*/}
+
+       <section>
+        <div className='max-w-container mx-auto mt-128px'>
+            <div>
+                <h2 className='Subheading'>Our blog</h2>
+            </div>
+                <div className='flex gap-8 mt-16'>
+                    <Cards src="./images/blog1png.png"  text="How one Webflow user grew his single person consultancy from $0-100K in 14 months" title="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" more="Read More"/>
+                    <Cards src="./images/blog1png.png"  text="How one Webflow user grew his single person consultancy from $0-100K in 14 months" title="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" more="Read More"/>
+                    <Cards src="./images/blog1png.png"  text="How one Webflow user grew his single person consultancy from $0-100K in 14 months" title="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" more="Read More"/>
+                </div>
+                    
+
+
+          
+
+        </div>
+       </section>
+
+
+
+
+       {/* =====Our blog part end here=====*/}
+
+
+
 
 
 
