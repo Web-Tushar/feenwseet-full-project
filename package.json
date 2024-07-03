@@ -16,7 +16,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "flowbite": "^2.3.0",
     "flowbite-react": "^0.9.0",
-    "keep-react": "^1.2.0",
+    "keep-react": "^1.4.0",
     "phosphor-react": "^1.4.1",
     "preact": "^10.19.6",
     "react-icons": "^5.1.0",

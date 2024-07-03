@@ -33,12 +33,17 @@ export default {
         '48px':'48px',
         '24px':'24px',
         '12px':'12px',
+        '14px':'14px',
         '16px':'16px',
         '8px': '8px',
         '64px':'64px',
         '10px':'10px',
         '312px':'312px',
+        '22px' :'22px',
         '40px' :'40px',
+        '31px' :'31px',
+        '86px' :'86px',
+        
         '128px': '128px',
         
       },
@@ -51,9 +56,11 @@ export default {
         '96px': '96px',
         '18px':'18px',
         '32px': "32px",
+        '37px': "37px",
         '51px':'51px',
         '16px':'16px',
-        '150px':'150px',
+        '100px': '100px',
+        '80px':'80px',
 
       },
       fontSize: {
@@ -69,6 +76,8 @@ export default {
 
       },
       gap: {
+        "29px":"29px",
+        "61px":"61px",
        '48px':'48px',
        '24px': '24px',
        '32px':'32px',
@@ -89,6 +98,7 @@ export default {
 
       width: {
         '582px': '582px',
+        '517px': '517px',
         '122px': '122px',
         '562px': '562px',
         '405px': '405px',
@@ -105,6 +115,9 @@ export default {
         '656px': '656px',
         '464px' : '464px',
         '432px': '432px',
+        '399px': '399px',
+        '484px': '484px',
+        '515px': '515px',
         // 'container': '1280px'
 
       },
@@ -135,7 +148,8 @@ export default {
         '#F4F6FC': '#F4F6FC',
         '#FCD980': '#FCD980',
         '__grey' :'#F4F6FC',
-          'colorss' :'rgba(28, 30, 83, 0.50);',
+        "#F4F5F5": '#F4F5F5',
+        'colorss' :'rgba(28, 30, 83, 0.50);',
         'border_color' : "rgba(255, 255, 255, 0.05)"
         
         

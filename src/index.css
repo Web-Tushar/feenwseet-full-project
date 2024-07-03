@@ -12,7 +12,10 @@
        @apply px-[48px] font-Poppins py-[16px] text-white border border-[#F4F6FC33] rounded-[41px];
      }
      .nav_list {
-      @apply duration-1000 hover:text-white;
+      @apply duration-700 hover:text-white;
+    }
+     .footer_list {
+      @apply duration-700 hover:text-green-500;
     }
 
     .heading {
@@ -36,7 +39,7 @@
 
   @layer components {
     .Subheading {
-      @apply text-48px w-562px text-48px not-italic font-Poppins font-semibold leading-line28;
+      @apply text-48px w-562px not-italic font-Poppins font-semibold leading-line28;
     }
   }
 
