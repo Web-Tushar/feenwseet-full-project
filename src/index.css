@@ -21,42 +21,29 @@
     .heading {
       @apply w-582px text-54px font-bold leading-line74 not-italic text-white font-Poppins;
     }
-    
-   }
-   
-   
-   @layer components {
+
+    .aboutHeading {
+      @apply text-Dark_blue font-Poppins text-24px font-medium leading-line36 not-italic;
+    }
     .label {
       @apply text-white  font-Poppins text-16px not-italic font-medium leading-line28;
     }
-  }
 
-  @layer components {
     .perastyle {
       @apply text-white  text-16px not-italic font-Poppins font-medium leading-line28;
     }
-  }
-
-  @layer components {
     .Subheading {
       @apply text-48px w-562px not-italic font-Poppins font-semibold leading-line28;
     }
-  }
 
-  @layer components {
     .CardHeading {
       @apply text-white  text-24px not-italic font-Poppins font-bold leading-line36;
     }
-  }
-
-  @layer components {
+    
     .AccordionPera {
       @apply text-Dark_blue  text-18px not-italic font-Poppins font-medium leading-line32;
     }
-  }
-
-  @layer components {
     .AccordionHeading {
       @apply text-Dark_blue font-Poppins text-48px font-medium leading-line36 not-italic;
     }
-  }
+   }

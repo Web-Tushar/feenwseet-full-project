@@ -45,6 +45,7 @@ export default {
         '86px' :'86px',
         
         '128px': '128px',
+        '152px': '152px',
         
       },
       padding: {
@@ -72,6 +73,7 @@ export default {
       '38px':'38px',
       '48px' :'48px',
       '54px' :'54px',
+      '38px' :'38px',
 
 
       },
@@ -85,6 +87,7 @@ export default {
        '142px':'142px',
        '10px': '10px',
        '109px' :'110px',
+       '89px' :'89px',
       },
       height: {
         '28px': '28px',
@@ -113,11 +116,15 @@ export default {
         '80px' : '80px',
         '624px': '624px',
         '656px': '656px',
-        '464px' : '464px',
+        '464px': '464px',
         '432px': '432px',
         '399px': '399px',
         '484px': '484px',
         '515px': '515px',
+        '272px': '272px',
+        '623px': '623px',
+        '162px': '162px',
+        '136px': '136px',
         // 'container': '1280px'
 
       },
@@ -132,7 +139,8 @@ export default {
         'line64': '64px',
         'line56': '56px',
         'line48': "48px",
-        'line32': '32px'
+        'line32': '32px',
+        'line64': '64px',
         
         
       },
@@ -148,9 +156,11 @@ export default {
         '#F4F6FC': '#F4F6FC',
         '#FCD980': '#FCD980',
         '__grey' :'#F4F6FC',
-        "#F4F5F5": '#F4F5F5',
+        '#F4F5F5': '#F4F5F5',
         'colorss' :'rgba(28, 30, 83, 0.50);',
-        'border_color' : "rgba(255, 255, 255, 0.05)"
+        'border_color' : 'rgba(255, 255, 255, 0.05)',
+        '#EEF4FA':'#EEF4FA',
+        '#282938':'#282938',
         
         
       },
