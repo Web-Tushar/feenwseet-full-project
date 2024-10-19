@@ -197,12 +197,65 @@ const About = () => {
       {/* =====benifit of working part end here */}
 
       {/* ==== meet our team section start */}
-      <section className='py-128px '>
-        <div className = "max-w-container mx-auto">
-        <div className='flex justify-center'>
-            <Subheading className="Subheading leading-line64 w-630px text-center " title="The benefits of working with us" />
+      <section className='py-128px bg-#F4F6FC '>
+        <div className="max-w-container mx-auto">
+          <div className='flex justify-center'>
+            <Subheading className="Subheading leading-line64 w-630px text-center mb-3 " title="Meet our team" />
           </div>
-
+          <div className=" flex gap-6">
+            <div className="">
+              <div className="w-[296px] flex justify-center items-center  h-[344px] bg-white">
+                <div className="flex flex-col items-center text-center">
+                  <div className="h-[168px] rounded-[50%] w-[168px] object-cover">
+                    <img src="./images/serious-man-3760373.png" alt="not_foud" />
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="aboutHeading">John Smith</h3>
+                    <span className="label font-normal text-#1D2130">CEO</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <div className="w-[296px] flex justify-center items-center  h-[344px] bg-white">
+                <div className="flex flex-col items-center text-center">
+                  <div className="h-[168px] rounded-[50%] w-[168px] object-cover">
+                    <img src="./images/serious-man-3760373.png" alt="not_foud" />
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="aboutHeading">John Smith</h3>
+                    <span className="label font-normal text-#1D2130">CEO</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <div className="w-[296px] flex justify-center items-center  h-[344px] bg-white">
+                <div className="flex flex-col items-center text-center">
+                  <div className="h-[168px] rounded-[50%] w-[168px] object-cover">
+                    <img src="./images/serious-man-3760373.png" alt="not_foud" />
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="aboutHeading">John Smith</h3>
+                    <span className="label font-normal text-#1D2130">CEO</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <div className="w-[296px] flex justify-center items-center  h-[344px] bg-white">
+                <div className="flex flex-col items-center text-center">
+                  <div className="h-[168px] rounded-[50%] w-[168px] object-cover">
+                    <img src="./images/serious-man-3760373.png" alt="not_foud" />
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="aboutHeading">John Smith</h3>
+                    <span className="label font-normal text-#1D2130">CEO</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
 
