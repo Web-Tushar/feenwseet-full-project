@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div>
       {/* ======banner part start here=== */}
-      <section className='py-128px '>
+      {/* <section className='py-128px '>
         <div className='max-w-container mx-auto'>
           <div className='flex justify-between'>
             <div>
@@ -20,7 +20,7 @@ const About = () => {
             </div>
 
             <div>
-              <img src="../../images/about banner.png" alt="" />
+              <img src="../../../images/about banner.png" alt="img not found" />
             </div>
 
           </div>
@@ -29,7 +29,7 @@ const About = () => {
         </div>
 
 
-      </section>
+      </section> */}
 
       {/* ======banner part end here=== */}
 

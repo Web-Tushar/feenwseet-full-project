@@ -13,19 +13,8 @@ import { FaChevronRight } from "react-icons/fa"
 import { FaChevronLeft } from "react-icons/fa"
 
 // import Conatct from '../contact/Contact'
-import { Accordion } from "keep-react";
 import Accordian from '../../components/Accordian'
 import Cards from '../../components/Cards'
-
-
-// import {
-//     Accordion,
-//     AccordionContainer,
-//     AccordionContent,
-//     AccordionIcon,
-//     AccordionPanel,
-//     AccordionTitle,
-//   } from 'keep-react'
 
 
 
@@ -57,7 +46,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="./images/banner.png" alt="not_found" />
+                            <img src="../../../images/banner.png" alt="not_found" />
                         </div>
                     </div>
 
@@ -84,7 +73,7 @@ const Home = () => {
                         <div className='card_item  '>
                             <Card className='border-none shadow-none shadow-transparent bg-transparent'>
                                 <Card.Header>
-                                    <img src="./images/pointer 1.png" alt="image" />
+                                    <img src="../../../images/pointer 1.png" alt="image" />
                                 </Card.Header>
 
                                 <Card.Content className="p-1 mt-16px">
@@ -348,124 +337,8 @@ const Home = () => {
                             </div>
 
                         </div>
-                        <div>
-                            {/* <Accordion flush={true}>
-                        <Accordion.Panel>
-                            <Accordion.Container>
-                            <Accordion.Title className='AccordionHeading'>1  How much time does it take??</Accordion.Title>
-                            <Accordion.Icon />
-                            </Accordion.Container>
-                            <Accordion.Content className='text-Dark_blue  text-18px not-italic font-Poppins font-medium leading-line32'>
-                            The Keep React is a collection of UI components, styles, and guidelines that ensure consistency and a unified
-                            user experience across our products. It simplifies the design and development process by providing
-                            ready-to-use components that can be easily customized and integrated into various applications.
-                            </Accordion.Content>
-                        </Accordion.Panel>
-                        <Accordion.Panel>
-                            <Accordion.Container>
-                            <Accordion.Title className='text-Dark_blue font-Poppins text-24px font-medium leading-line36 not-italic'>2 What is your class naming convention?</Accordion.Title>
-                            <Accordion.Icon />
-                            </Accordion.Container>
-                            <Accordion.Content  className='text-Dark_blue  text-18px not-italic font-Poppins font-medium leading-line32'>
-                            The Keep React offers a range of color variants for components. To customize the color scheme, you can use the
-                            available color options such as gray,info,error,warning and success. Simply set the desired color variant as a
-                            prop when using the component, and it will reflect the chosen color.
-                            </Accordion.Content>
-                        </Accordion.Panel>
-                        <Accordion.Panel>
-                            <Accordion.Container>
-                            <Accordion.Title className='text-Dark_blue font-Poppins text-24px font-medium leading-line36 not-italic'>3 How do you communicate?</Accordion.Title>
-                            <Accordion.Icon />
-                            </Accordion.Container>
-                            <Accordion.Content  className='text-Dark_blue  text-18px not-italic font-Poppins font-medium leading-line32'>
-                            Yes, the Notification component in the Keep React allows you to include extra content alongside the primary
-                            message. The additionalContent prop can be used to display supplementary information, such as buttons, links,
-                            or icons, within the notification to provide users with more context and options.
-                            </Accordion.Content>
-                        </Accordion.Panel>
-                        <Accordion.Panel>
-                            <Accordion.Container>
-                            <Accordion.Title className='text-Dark_blue font-Poppins text-24px font-medium leading-line36 not-italic'>4 What is your class naming convention?</Accordion.Title>
-                            <Accordion.Icon />
-                            </Accordion.Container>
-                            <Accordion.Content  className='text-Dark_blue  text-18px not-italic font-Poppins font-medium leading-line32'>
-                            The Keep React offers a range of color variants for components. To customize the color scheme, you can use the
-                            available color options such as gray,info,error,warning and success. Simply set the desired color variant as a
-                            prop when using the component, and it will reflect the chosen color.
-                            </Accordion.Content>
-                        </Accordion.Panel>
-                        <Accordion.Panel>
-                            <Accordion.Container>
-                            <Accordion.Title className='text-Dark_blue font-Poppins text-24px font-medium leading-line36 not-italic'>5 What is your class naming convention?</Accordion.Title>
-                            <Accordion.Icon />
-                            </Accordion.Container>
-                            <Accordion.Content  className='text-Dark_blue  text-18px not-italic font-Poppins font-medium leading-line32'>
-                            The Keep React offers a range of color variants for components. To customize the color scheme, you can use the
-                            available color options such as gray,info,error,warning and success. Simply set the desired color variant as a
-                            prop when using the component, and it will reflect the chosen color.
-                            </Accordion.Content>
-                        </Accordion.Panel>
-                     </Accordion>   */}
-                            {/* <Accordion flush={true}>
-      <AccordionPanel>
-        <AccordionContainer>
-          <AccordionTitle>Q. What is the purpose of the Keep React?</AccordionTitle>
-          <AccordionIcon />
-        </AccordionContainer>
-        <AccordionContent>
-          The Keep React is a collection of UI components, styles, and guidelines that ensure consistency and a unified
-          user experience across our products. It simplifies the design and development process by providing
-          ready-to-use components that can be easily customized and integrated into various applications.
-        </AccordionContent>
-      </AccordionPanel>
-      <AccordionPanel>
-        <AccordionContainer>
-          <AccordionTitle>Q. How do I customize the color scheme of components?</AccordionTitle>
-          <AccordionIcon />
-        </AccordionContainer>
-        <AccordionContent>
-          The Keep React offers a range of color variants for components. To customize the color scheme, you can use the
-          available color options such as gray,info,error,warning and success. Simply set the desired color variant as a
-          prop when using the component, and it will reflect the chosen color.
-        </AccordionContent>
-      </AccordionPanel>
-      <AccordionPanel>
-        <AccordionContainer>
-          <AccordionTitle>Q. Can I add additional content to notifications?</AccordionTitle>
-          <AccordionIcon />
-        </AccordionContainer>
-        <AccordionContent>
-          Yes, the Notification component in the Keep React allows you to include extra content alongside the primary
-          message. The additionalContent prop can be used to display supplementary information, such as buttons, links,
-          or icons, within the notification to provide users with more context and options.
-        </AccordionContent>
-      </AccordionPanel>
-    </Accordion> */}
-
-
-
-                        </div>
-                        <div>
-                            <Accordian
-                                className="AccordionHeading"
-                                headingtext="How much time does it take ?"
-                                paragraphtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-                            />
-                            <Accordian
-                                headingtext="How much time does it take ?"
-                                paragraphtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                            />
-                            <Accordian
-                                headingtext="How much time does it take ?"
-                                paragraphtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                            />
-                            <Accordian
-                                headingtext="How much time does it take ?"
-                                paragraphtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                            />
-
-                        </div>
+                        <Accordian/>
+                    
                     </div>
                 </div>
             </section>
@@ -501,13 +374,8 @@ const Home = () => {
                                 </div>
                                 <Button className="common_btn py-16px px-51px w-432px bg-#FCD980 mt-10" title="View our work" />
                             </form>
-
-
-
                         </div>
-
                     </div>
-
                 </div>
             </section>
             {/* =====Send inquiry part end  here=====*/}
@@ -524,31 +392,9 @@ const Home = () => {
                         <Cards src="./images/blog1png.png" text="How one Webflow user grew his single person consultancy from $0-100K in 14 months" title="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" more="Read More" />
                         <Cards src="./images/blog1png.png" text="How one Webflow user grew his single person consultancy from $0-100K in 14 months" title="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" more="Read More" />
                     </div>
-
-
-
-
-
                 </div>
             </section>
-
-
-
-
             {/* =====Our blog part end here=====*/}
-
-
-
-
-
-
-
-
-
-
-
-
-
         </>
     )
 }

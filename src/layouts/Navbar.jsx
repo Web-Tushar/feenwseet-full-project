@@ -10,7 +10,7 @@ const Navbar = () => {
        <div className='container mx-auto'>
           <div className='flex justify-between items-center'>
                <div className='w-122px h-28px object-cover'>
-                    <img className='w-122px h-28px object-cover' src="/images/Finsweet white logo 1.png" alt="not_found" />
+                    <img className='w-122px h-28px object-cover' src="../../../images/Finsweet white logo 1.png" alt="not_found" />
                </div>
 
                <div className='flex gap-x-48px justify-between items-center'>

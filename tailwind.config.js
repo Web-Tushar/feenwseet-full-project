@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 import keepPreset from "keep-react/preset";
+const flowbite = require("flowbite-react/tailwind");
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "node_modules/keep-react/**/*.{js,jsx,ts,tsx}",
+       "./node_modules/flowbite/**/*.js",
+    flowbite.content(),
   ],
   presets: [keepPreset],
   theme: {
@@ -167,6 +169,8 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    flowbite.plugin(),
+  ],
 }
 
